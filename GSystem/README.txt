@@ -25,6 +25,3 @@ Notes
 -Data is not saved permanently and will be lost when the server restarts.
 -Consider using a database (MySQL) for long-term storage.
 
-Author
--Created by Bianca Rain Castillon
-
