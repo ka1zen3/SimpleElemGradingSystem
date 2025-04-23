@@ -1,0 +1,98 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url('plp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container {
+    max-height: 50%;
+    width: 80%;
+    margin: auto;
+    background: #F4F2EB;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 50PX;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.back-btn, .reset-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.back-btn {
+    background-color: #28a745;
+}
+
+.back-btn:hover {
+    background-color: #218838;
+}
+
+.reset-btn {
+    background-color: #ff5722;
+}
+
+.reset-btn:hover {
+    background-color: #e64a19;
+}

@@ -1,0 +1,222 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-image: url('green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    max-width: 5000px;
+    margin: 0%;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    width: 130px;
+    height: 100vh;
+    padding: 30px;
+    text-align: center;  
+}
+
+.body {
+    flex: 3;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    background: white;
+    text-align: center;
+    margin-bottom: 10%;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details, .row {
+    margin: 2%;
+    height: 8vh;   
+    padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.row input, .subjects input {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 38px;
+}
+
+.details select, .subjects select {
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 8vh;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    
+}
+#subjects-container {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Custom scrollbar styles */
+#subjects-container::-webkit-scrollbar {
+    width: 5px; /* Adjust the width to make it thinner */
+}
+
+#subjects-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Light color for thumb */
+    border-radius: 10px; /* Rounded scrollbar */
+}
+
+#subjects-container::-webkit-scrollbar-track {
+    background: transparent; /* Make track invisible */
+    border-radius: 10px;
+}
+
+
+.subjects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 480px;
+    margin: 2%;
+    height: 8vh;   
+}
+
+input, select, button {
+    font-size: 18px;
+    padding: 15px;
+}
+
+h2, h3 {
+    font-size: 35px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+button {
+    width: 100%;
+    max-width: 230px;
+    font-size: 18px;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background:#EBDD16;
+}
+
+.view-studrec{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    padding-left: 20px;
+}
+
+.logo img {
+    width: 150%;
+    height: auto;
+}
+
+/* Default select color (matches placeholder color) */
+select {
+    color: gray;
+}
+
+/* Make selected options appear black */
+select:valid {
+    color: black;
+}
+
+/* Ensure the first disabled option remains gray */
+select option[disabled] {
+    color: gray;
+}
+
